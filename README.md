@@ -92,16 +92,60 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
 
 <details>
   <summary>La moyenne et la médiane</summary>
+  <img width="1032" height="211" alt="image" src="https://github.com/user-attachments/assets/da1df504-0bf2-416a-b798-1878f06383d0" />
+
+  On voit que la moyenne est très impactée par des valeurs extrèmes, alors que la mediane ne subit pas ce type de déformation.
+  
+  <img width="1037" height="372" alt="image" src="https://github.com/user-attachments/assets/9b99a50e-17f7-45fa-9e48-161ca788a0bd" />
+
+
 </details>
 
 <details>
   <summary>Les quartiles</summary>
+  <img width="1045" height="206" alt="image" src="https://github.com/user-attachments/assets/68a82438-439a-43fa-a139-3b5b1f33d219" />
+  Distribution de nos valeurs Energie:
+  <img width="622" height="370" alt="image" src="https://github.com/user-attachments/assets/14343a39-fb33-48d9-b5c1-6cdc1392f0e9" />
+  
+  Grâce à ce graphique on observe une distrubtion des valeurs autour de la moyenne
+
+  Résumé de la distribution:
+  <img width="970" height="387" alt="image" src="https://github.com/user-attachments/assets/24b6ce6e-ae8d-4185-ac2d-9213283d1d23" />
+
+- Les musiques sont plutôt avec une Energie haute dans l'ensemble.
+- Le premier quartile reste au dessus de 0,5
+-  Attention, nous n'avons pour l'instant pas lié l'énergie avec la volumétrie de d'écoute ou de followers.
+    Ca sera une information à confirmer.
 </details>
 <details>
   <summary>Les indicateurs de dispersions</summary>
+  <img width="1067" height="461" alt="image" src="https://github.com/user-attachments/assets/d01f57b0-4513-482e-806d-fdfbe56a4a25" />
+  
+  Remarque:
+  
+  - On remarque tout de suite les critères dansabilité et energie qui on fortement la même distribution, plutôt sur des valeurs fortes.
+  - Paroles est un critère dont il faudra se méfier.
+  - Les valeurs fortes correspondent d'avantage à des podcasts qui ne figurent pas ce classement.
+  
+  - Accousticité et la positivité sont des critères très disparates, qui occupent toute la hauteur du spectre.
+
+  - Au niveau des concert, la question que la chanson soit live ne semble pas plébisité par les utilisateurs. Il faut garder en tête que c'est potentiellement un problème de représentation.
+  <img width="1047" height="130" alt="image" src="https://github.com/user-attachments/assets/5b2ad75b-e462-41bc-8ae2-382b691ab7b8" />
+  <img width="353" height="127" alt="image" src="https://github.com/user-attachments/assets/67bfbd6c-04ee-43ba-b96b-0a744a1b8cc0" />
+
 </details>
 <details>
-  <summary>Récapitulatif global sur une colonne</summary>
+  <summary>Synthèse sur la position la plus élevée dans les charts</summary>
+  <img width="850" height="180" alt="image" src="https://github.com/user-attachments/assets/eb22d909-bfd3-418b-ae4a-8497b36400db" />
+  <img width="621" height="371" alt="image" src="https://github.com/user-attachments/assets/0c357fa6-0e1b-4502-9111-c4a29501d12d" />
+
+  <img width="343" height="55" alt="image" src="https://github.com/user-attachments/assets/dc6c41a7-1461-4ab6-b5c3-04db8c34b9ef" />
+  <img width="217" height="78" alt="image" src="https://github.com/user-attachments/assets/87fc86d2-1c81-4520-b7a6-07883e6cac4a" />
+  <img width="623" height="372" alt="image" src="https://github.com/user-attachments/assets/e3c053fd-0d8e-4557-881c-abf5b623e9fa" />
+
+
+
+
 </details>
 <details>
   <summary>Analyse des variables qualitatives</summary>
