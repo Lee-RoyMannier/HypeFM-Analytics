@@ -48,3 +48,62 @@ Il s'agit d'un jeu de donnée regroupant les TOP 200 Charts de 2020 et 2021
 - Positivité : Une mesure de 0,0 à 1,0 décrivant la positivité musicale véhiculée par une piste. Les pistes à haute valence ont un son plus positif (par exemple, heureux, gai, euphorique), tandis que les pistes à
   faible valence ont un son plus négatif (par exemple, triste, déprimé, en colère).
 </details>
+
+## Etape 1: Analyse Descriptive des données
+L'analyse descriptive est une étape préliminaire du traitement des données qui consiste à synthétiser des données pour en tirer des informations utiles, voire les préparer en vue d'une analyse complémentaire.
+
+<details>
+  <summary>Les valeurs extrêmes</summary>
+  A quoi ça sert ?
+  - Permet de connaitre les limites d'une série
+  - De savoir que toutes les valeurs seront comprises entre ces 2 bornes (MAX et MIN)
+  - Constater des éventuellees valeurs anormales
+
+  Avec le calcule de l'étendue, on va pouvoir :
+  - Calculer la différence entre 2 valeurs extremes
+  - Donner une première idée de la disparité des données
+
+<img width="856" height="365" alt="image" src="https://github.com/user-attachments/assets/77ce66fc-a497-4ef3-921a-301dcee0595f" />
+
+</details>
+
+<details>
+  <summary>Les valeurs manquantes</summary>
+  <img width="1028" height="161" alt="image" src="https://github.com/user-attachments/assets/f43cf09e-96fa-4d84-b48a-ffe7289c0fd4" />
+  
+  Après observation, on peut dire qu'il y a moins de 1% de valeurs manquantes pour la colonne des Followers
+</details>
+
+<details>
+  <summary>Le mode</summary>
+  <img width="858" height="141" alt="image" src="https://github.com/user-attachments/assets/53f3d912-4c68-464f-9968-18bfe732a98c" />
+ 
+  On observe que la valeur majoritaire dans les positions dans le top est la premère position du classement.
+
+  <img width="860" height="411" alt="image" src="https://github.com/user-attachments/assets/0fd5df23-7509-49dc-84ba-7f9f2dabaa67" />
+
+  Conculsion:
+  Dans le Top 200, la valeur la plus récurrente est la position 1, ce qui est logique car on est sur un jeu de donnée representant les TOP.
+  On remarque cependant une longue traine sur l'ensemble des valeurs possibles.
+
+  Question donc, pourquoi une musique qui ce trouve à la position 141 ce trouve dans le top ?
+  => Hypothèse : Cela veut potentiellement dire que certaines chansons n'ont pas "explosés" sur une seule semaine mais sont restées populaire sur plusieurs semaines, les hissant dans le top des chansons.
+</details>
+
+<details>
+  <summary>La moyenne et la médiane</summary>
+</details>
+
+<details>
+  <summary>Les quartiles</summary>
+</details>
+<details>
+  <summary>Les indicateurs de dispersions</summary>
+</details>
+<details>
+  <summary>Récapitulatif global sur une colonne</summary>
+</details>
+<details>
+  <summary>Analyse des variables qualitatives</summary>
+</details>
+
