@@ -149,5 +149,62 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
 </details>
 <details>
   <summary>Analyse des variables qualitatives</summary>
+  <img width="907" height="170" alt="image" src="https://github.com/user-attachments/assets/8b174377-b51d-482f-bdc2-5ccf9a8b7e49" />
+  
+  conclusion:
+  - Il n'y que 5% des chansons qui n'ont pas de style attitré, rendant cette information fiable.
+
+  <img width="533" height="183" alt="image" src="https://github.com/user-attachments/assets/b6f84c85-05f7-409c-936c-8b3728bd4a5e" />
+
+  conclusion:
+  - Il existe un nombre très important de genres, ce qui empécherait de faire des analyses "simples" par genre.
+  - Il est probablement que la réparation par genre ne soit pas uniforme et certains soient plus représentés que d'autre.
+
+  TOP 10:
+  
+  <img width="393" height="338" alt="image" src="https://github.com/user-attachments/assets/acd49203-ba74-4d74-820c-e9b9bd51de23" />
+  <img width="600" height="357" alt="image" src="https://github.com/user-attachments/assets/583518f0-f00d-42f9-954a-0af201dc0b19" />
+
+  Conclusion:
+  - Il y a énormément de disparité entre les genres en terme de volume de chansons.
+  - Les 10 premiers genres représentent plus de la moitée des chansons.
+
+  - A noter qu'on retrouve des sous-genres sur certaines thématiques (pop, rap, hip hop)
+
 </details>
 
+## Etape 2: Exploration de données
+<details>
+  <summary>EDA</summary>
+  
+  Grâce à une exploration des données, nous allons pouvoir répondre à certaines question:
+  - Q1: Qu'est ce donc que "ohio hip hop" ?
+    - Cela correspond à un seul artiste. Cela voudrai dire que des rassemblements de genres sont possibles.
+    
+  - Q2: Quels sont les autres style de hip hop ?
+    - Grâce à l'utilisation de la formule: 
+    => `=NBVAL(UNIQUE(FILTRE(Spotify[Genre principal];ESTNUM(CHERCHE("*hip hop*";Spotify[Genre principal])))))`
+    Nous pouvons voir qu'il existe 25 sorte de hip hop.
+    - Beaucoup de ses genres sont associés à des villes ou à des pays.
+    
+  - Q3: Est-ce qu'il y a eu des chansons sorties avant la sortie de ce classement ?
+    - Il y a effectivement des musiques bien antérieures au classement.
+    - Cela concerne des "classiques" et des musiques liées à noel.
+    
+  - Q4: Quel est l'artiste avec les plus de followers ? Quelles sont les chansons présentes de lui dans ce classement ?
+    - L'artiste avec le plus de followers est Ed Sheeran, avec 9 chansons dans le classement.
+      
+  - Q5: Quelle la musique sortie en 2020 la plus écoutée ?
+      - C'est une musique de Justin Bieber. 
+      - On remarque que la majorité des chansons en tête de classement sont des musiques pop
+    
+  - Q6: Est-ce que les musiques avec le plus d'écoutes sont celles avec le plus de followers ?
+      - Il ne semble pas y avoir de lien évident entre le nombre de followers et le nombre d'écoutes. A confirmer avec un test statistique.
+        
+  - Q7: Est-ce le cas avec la popularité ?
+      - Il semble y avoir un lien entre la popularité et le nombre d'écoutes. A confirmer avec un test statistique
+      
+  - Q8: Quels critères semblent influencer les écoutes ?
+      - Il n'y a pas de lien évident entre les critères et la popularité et les écoutes. A confirmer avec un test statistique  
+  
+</details>
