@@ -208,3 +208,41 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
       - Il n'y a pas de lien évident entre les critères et la popularité et les écoutes. A confirmer avec un test statistique  
   
 </details>
+
+## Etape 3: Analyse de correlation
+<details>
+  <summary>Corrélation</summary>
+
+  <img width="611" height="427" alt="image" src="https://github.com/user-attachments/assets/63520091-53df-495b-8a4c-6bb85d29c70f" />
+
+  <img width="252" height="51" alt="image" src="https://github.com/user-attachments/assets/e76791c0-be85-4cec-89bd-dd124a80738d" />
+  
+  Conclusion:
+  - 'La corrélation entre les 2 variables est faible.
+  - L'intuition de départ était biaisée car on observait des valeurs extrèmes.
+  - Le nombre d'écoute n'est pas un indicateur fiable pour expliquer la popularité
+
+  <img width="601" height="417" alt="image" src="https://github.com/user-attachments/assets/66a9b902-39d2-4c51-b23a-38010371207d" />
+
+  <img width="251" height="48" alt="image" src="https://github.com/user-attachments/assets/004c667b-8120-4b5a-9472-0a714d69adc0" />
+
+  Conclusion:
+  - Corrélation un peu plus forte malgré une grande disparité
+  - Les musiques dansantes ont tendance à être plus positive mais cela n'est pas une regle absolue.
+  - Si HypeFM reste dans la logique GoodVibes, la dansabilité reste quand même un critère à ne pas rejeter pour sélectionner les futures titres.
+
+  <img width="597" height="446" alt="image" src="https://github.com/user-attachments/assets/9b4998d3-e25a-4f64-9e8e-a739715fed73" />
+
+  <img width="251" height="51" alt="image" src="https://github.com/user-attachments/assets/7b8ca5d1-d4b2-40d7-8f52-071849907ed2" />
+
+  Conclusion:
+  - Corrélation plus forte, l'indicateur d'intensité semble bien lié à celle de l'énergie.
+  - Connaître l'intensité d'une chanson peut nous donner une indication sur l'énergie et ainsi selectionner ce type de morceau
+
+  Matrice de corrélation pour nos variables quantitatives:
+  <img width="1820" height="310" alt="image" src="https://github.com/user-attachments/assets/f28bf860-2f12-43a6-a096-1ebd43bc5cc4" />
+
+  Observation:
+  - On observe une corrélation forte négativement entre l'énergie d'une chanson avec l'acousticité, ce qui semble logique, donc la radio va pouvoir se baser sur ça, il faudra donc éviter les chansons de ce type.
+    
+</details>
