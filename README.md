@@ -244,5 +244,6 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
 
   Observation:
   - On observe une corrélation forte négativement entre l'énergie d'une chanson avec l'acousticité, ce qui semble logique, donc la radio va pouvoir se baser sur ça, il faudra donc éviter les chansons de ce type.
-    
+  - On observe aussi une correlation négative relativement forte mais difficile à voir sur le graphique.
+  La logique sera que plus un morceaux est présent semaine après semaine et moins sa position moyenne est élevé. Cela explique le fait que certains morceaux ne soient jamais aller au délà de 150ième place et     figurent quand même dans les chansons les plus écoutées. Il ne faut donc pas forcement regarder le haut du classement pour trouver des morceaux à potentiel.
 </details>
