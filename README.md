@@ -247,3 +247,19 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   - On observe aussi une correlation négative relativement forte mais difficile à voir sur le graphique.
   La logique sera que plus un morceaux est présent semaine après semaine et moins sa position moyenne est élevé. Cela explique le fait que certains morceaux ne soient jamais aller au délà de 150ième place et     figurent quand même dans les chansons les plus écoutées. Il ne faut donc pas forcement regarder le haut du classement pour trouver des morceaux à potentiel.
 </details>
+<details>
+  <summary>Transformation</summary>
+  
+  Dans notre fichier excel, nous allons appliquer une transformation sur les colonnes de genre pour avoir une certaine harmonisation:
+  `=SIERREUR(SI.CONDITIONS(ESTNUM(CHERCHE("*rock*";[@[Genre principal]]))=VRAI;"ROCK";
+                            ESTNUM(CHERCHE("*hip hop*";[@[Genre principal]]))=VRAI;"HIP HOP"; 
+                            ESTNUM(CHERCHE("*pop*";[@[Genre principal]]))=VRAI;"POP";
+                            ESTNUM(CHERCHE("*rap*";[@[Genre principal]]))=VRAI;"RAP";
+                            ESTNUM(CHERCHE("*country*";[@[Genre principal]]))=VRAI;"COUNTRY");
+              "AUTRE")`
+
+  Dans le même esprit, on va créer une nouvelle colonne de transformation de date pour extraire seulement l'année de sortie des titre.
+  `=ANNEE([@[Date de sortie]])`
+  
+  
+</details>
