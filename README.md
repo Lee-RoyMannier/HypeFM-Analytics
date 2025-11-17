@@ -260,6 +260,22 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
 
   Dans le même esprit, on va créer une nouvelle colonne de transformation de date pour extraire seulement l'année de sortie des titre.
   `=ANNEE([@[Date de sortie]])`
+  </details>
   
+  <details>
+  <summary>Mesures statistiques</summary>
+
+  ## On va utiliser le rapport de corrélation ainsi que l'anovo pour detecter une corrélation (un lien) entre une variable qualitative et une variable quantitative.
+
+  <img width="602" height="398" alt="image" src="https://github.com/user-attachments/assets/385fbe66-f04c-4031-a0ea-7bbb45c849cf" />
+
+  <img width="607" height="415" alt="image" src="https://github.com/user-attachments/assets/b8d1fba1-9c2f-4184-b799-b31b51469c21" />
+
+  Conclusion: 
+  - Corrélation faible entre 2 valeurs (superposition des distributions et grande disparité dans les valeurs).
+  - On note quand même le hip hop et le rap avec des distributions plus larges et plus hautes que les autres.
+  - l'ANOVA indique que les genres influencent réellement la variable “parole”, mais la force de cette influence reste faible
+
   
-</details>
+  </details>
+
