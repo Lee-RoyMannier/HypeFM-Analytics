@@ -265,8 +265,8 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   <details>
   <summary>Mesures statistiques</summary>
 
-  ## On va utiliser le rapport de corrélation ainsi que l'anovo pour detecter une corrélation (un lien) entre une variable qualitative et une variable quantitative.
-
+  ## On va utiliser le rapport de corrélation ainsi que l'anova pour detecter une corrélation (un lien) entre une variable qualitative et une variable quantitative.
+  ### Analyse du volume de paroles par genre de musique:
   <img width="602" height="398" alt="image" src="https://github.com/user-attachments/assets/385fbe66-f04c-4031-a0ea-7bbb45c849cf" />
 
   <img width="607" height="415" alt="image" src="https://github.com/user-attachments/assets/b8d1fba1-9c2f-4184-b799-b31b51469c21" />
@@ -276,6 +276,56 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   - On note quand même le hip hop et le rap avec des distributions plus larges et plus hautes que les autres.
   - l'ANOVA indique que les genres influencent réellement la variable “parole”, mais la force de cette influence reste faible
 
+  ### Analyse des followers par genre de musique:
+
+  <img width="466" height="352" alt="image" src="https://github.com/user-attachments/assets/fcf13ad9-a591-40e1-8dae-ac79bae46a3f" />
+
+  <img width="375" height="323" alt="image" src="https://github.com/user-attachments/assets/dbdc2009-8ded-4907-9709-4b2367478380" />
+
+  Conclusion:
+  - l'influence du genre de musique sur le nombre de follower est peu importante, avec le rock, le rap, la country et les autres type très prohe dans le comportement mais avec le genre pop qui surpasse les autres types et le hip hop est très en dessous des autres type
+
+  ### Analyse du volume d'écoutes par genre de musique:
+
+  <img width="475" height="369" alt="image" src="https://github.com/user-attachments/assets/c64d4a81-2f3e-46c3-b2ce-17eaa78dc65d" />
+
+  <img width="371" height="323" alt="image" src="https://github.com/user-attachments/assets/3aeff950-3952-4e06-83ae-67dcb5fce1f0" />
+
+  Conclusion:
+  - Corrélation inéxistante, le fait d'avoir des valeurs aussi extrèmes empèche toute corrélation évidente à constater.
+
+  ### Analyse de l'énergie par rapport à l'acousticité:
+
+  - Hypothese 0 (H_0): Le Genre Musical et la Popularité de la Chanson sont indépendants.En d'autres termes : La distribution de la popularité (FAIBLE vs. FORTE) est la même, quel que soit le genre musical.2.
+  - Hypothèse Alternative (H_1): Le Genre Musical et la Popularité de la Chanson ne sont pas indépendants (ils sont liés).
+      En d'autres termes : La popularité d'une chanson dépend du genre musical.
   
+  <img width="485" height="298" alt="image" src="https://github.com/user-attachments/assets/33b9aa7a-1ac2-47b2-8f6e-2c481ea966eb" />
+
+  <img width="375" height="303" alt="image" src="https://github.com/user-attachments/assets/1591a33f-29a2-4ac2-aed4-2494f80af76f" />
+
+  Conclusion:
+  - Il existe une relation statistiquement très significative entre le niveau d'énergie (FORTE/FAIBLE) et l'acousticité, même si l'énergie n'explique qu'une faible partie de la variabilité totale de l'acousticité.
+
+  ### Analyse du nombre de chansons en fonction de la popularité et des genres (Test de khi2)
+
+  ici, mon tableau de valeurs ainsi sont tableau de contingence.
+  <img width="593" height="501" alt="image" src="https://github.com/user-attachments/assets/ae0f84d6-7c9a-4ad8-a516-b9932c5efd35" />
+
+  <img width="237" height="39" alt="image" src="https://github.com/user-attachments/assets/c6ad58f5-9be4-4991-aefb-74caf2bdb7d6" />
+
+  Representation graphiques:
+  
+  <img width="540" height="585" alt="image" src="https://github.com/user-attachments/assets/8a695291-b5e5-4d0a-8ba1-962e7a9b3344" />
+
+  On observe une p-value < 0,05
+  Donc on rejette l'hypothèse h_0
+  Il existe une relation statistiquement significative entre le genre musical d'une chanson et sa popularité (FAIBLE/FORTE).
+
+  
+  Conclusion:
+  - L'influence du genre de musique sur l'énergie d'un morceau est nettement marqué.
+  - On retrouve par exemple une proportion plus importante de chansons à faible popularité dans le genre HIP HOP et le RAP.
+  - D'après les résultats, les genres de musiques les moins risqués, sont la pop et le rock.
   </details>
 
