@@ -295,10 +295,6 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   - Corrélation inéxistante, le fait d'avoir des valeurs aussi extrèmes empèche toute corrélation évidente à constater.
 
   ### Analyse de l'énergie par rapport à l'acousticité:
-
-  - Hypothese 0 (H_0): Le Genre Musical et la Popularité de la Chanson sont indépendants.En d'autres termes : La distribution de la popularité (FAIBLE vs. FORTE) est la même, quel que soit le genre musical.2.
-  - Hypothèse Alternative (H_1): Le Genre Musical et la Popularité de la Chanson ne sont pas indépendants (ils sont liés).
-      En d'autres termes : La popularité d'une chanson dépend du genre musical.
   
   <img width="485" height="298" alt="image" src="https://github.com/user-attachments/assets/33b9aa7a-1ac2-47b2-8f6e-2c481ea966eb" />
 
@@ -309,6 +305,10 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
 
   ### Analyse du nombre de chansons en fonction de la popularité et des genres (Test de khi2)
 
+  - Hypothese 0 (H_0): Le Genre Musical et la Popularité de la Chanson sont indépendants.En d'autres termes : La distribution de la popularité (FAIBLE vs. FORTE) est la même, quel que soit le genre musical.2.
+  - Hypothèse Alternative (H_1): Le Genre Musical et la Popularité de la Chanson ne sont pas indépendants (ils sont liés).
+      En d'autres termes : La popularité d'une chanson dépend du genre musical.
+    
   ici, mon tableau de valeurs ainsi sont tableau de contingence.
   <img width="593" height="501" alt="image" src="https://github.com/user-attachments/assets/ae0f84d6-7c9a-4ad8-a516-b9932c5efd35" />
 
