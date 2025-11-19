@@ -346,6 +346,8 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   - Le rock et les autres styles sont ceux qui donnent le plus d'énergie.
   
   </details>
+  
+## Etape 4: Rapport
 <details>
   <summary>Rapport</summary>
   
