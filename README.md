@@ -327,5 +327,23 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   - L'influence du genre de musique sur l'énergie d'un morceau est nettement marqué.
   - On retrouve par exemple une proportion plus importante de chansons à faible popularité dans le genre HIP HOP et le RAP.
   - D'après les résultats, les genres de musiques les moins risqués, sont la pop et le rock.
+
+  ### Analyse du nombre de chansons en fonction de l'énergie donnée et des genres
+
+  <img width="447" height="358" alt="image" src="https://github.com/user-attachments/assets/3f735710-1de3-4189-ac05-e4ea2272525a" />
+
+  
+  <img width="961" height="288" alt="image" src="https://github.com/user-attachments/assets/e58ab0f5-1efb-4c4c-817f-a6aa60d3a613" />
+
+  <img width="240" height="16" alt="image" src="https://github.com/user-attachments/assets/eb615b78-62f7-4aee-9060-d55ec9c594e1" />
+
+  
+  Vu que la p-value est < à 0,05, on rejette l'hypothese h_0 comme quoi il n'y a pas de lien entre le genre de la musique et son énergie.
+
+  Conclusion:
+  - L'influence du genre de musique sur l'énergie d'un morceau est nettement marqué.
+  - Etonnament, le rap donne le moins d'énergie.
+  - Le rock et les autres styles sont ceux qui donnent le plus d'énergie.
+  
   </details>
 
