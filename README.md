@@ -348,6 +348,7 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   </details>
 <details>
   <summary>Rapport</summary>
+  
   ## Les questions posées par l'équipe marketing
 
   - Est-ce uniquement les super stars qui se retrouvent dans le top Spotify ?
@@ -356,4 +357,7 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   - Est-ce uniquement les musiques qui viennenet de sortir qui sont présentes dans ce classement ?
   - Est-il pertinent de se concentrer uniquement sur le Top 10 des morceaux chaque semaine ?
   - Peut-on utiliser le top Spotify afin de trouver des morceaux intéressants pour notre radio ?
+
+
+[👉 Voir le rapport PDF](https://github.com/Lee-RoyMannier/HypeFM-Analytics/blob/main/rapport.pdf)
 </details>
