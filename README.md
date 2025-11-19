@@ -346,4 +346,14 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
   - Le rock et les autres styles sont ceux qui donnent le plus d'énergie.
   
   </details>
+<details>
+  <summary>Rapport</summary>
+  ## Les questions posées par l'équipe marketing
 
+  - Est-ce uniquement les super stars qui se retrouvent dans le top Spotify ?
+  - Est-ce que les auditeurs de HypeFM ont les même profils que ceux de Spotify ?
+  - Y a t-il un style de musique qui semble donner plus de hype que d'autres ?
+  - Est-ce uniquement les musiques qui viennenet de sortir qui sont présentes dans ce classement ?
+  - Est-il pertinent de se concentrer uniquement sur le Top 10 des morceaux chaque semaine ?
+  - Peut-on utiliser le top Spotify afin de trouver des morceaux intéressants pour notre radio ?
+</details>
