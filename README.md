@@ -363,3 +363,6 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
 
 [👉 Voir le rapport PDF](https://github.com/Lee-RoyMannier/HypeFM-Analytics/blob/main/rapport.pdf)
 </details>
+
+## Etape 5: Dashboard
+[👉 Voir le dashboard excel](https://github.com/Lee-RoyMannier/HypeFM-Analytics/blob/main/rapport.pdf)
