@@ -365,4 +365,6 @@ L'analyse descriptive est une étape préliminaire du traitement des données qu
 </details>
 
 ## Etape 5: Dashboard
-[👉 Voir le dashboard excel](https://github.com/Lee-RoyMannier/HypeFM-Analytics/blob/main/rapport.pdf)
+<img width="1471" height="637" alt="image" src="https://github.com/user-attachments/assets/dd4f8ca3-aeca-40eb-a3b3-411331d20e24" />
+
+[👉 Voir le dashboard excel](https://github.com/Lee-RoyMannier/HypeFM-Analytics/blob/main/Dashboard_spotify.xlsx)
